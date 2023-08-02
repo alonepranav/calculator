@@ -1,9 +1,12 @@
 {
+  "homepage": "https://alonepranav.github.io/calculator",
   "name": "calculator-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
